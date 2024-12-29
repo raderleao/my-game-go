@@ -1,0 +1,27 @@
+# Binários e arquivos compilados
+/bin/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Arquivos gerados pelo Go
+*.test
+*.o
+*.a
+__debug_bin
+
+# Logs, caches e arquivos temporários
+*.log
+*.tmp
+*.cache
+
+# Configurações específicas do GoLand (JetBrains)
+.idea/
+*.iml
+
+# Diretórios de bibliotecas e dependências locais
+vendor/
+
+# Outros arquivos específicos do sistema
+.DS_Store
